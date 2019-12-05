@@ -2,7 +2,7 @@ class YoutubesController < ApplicationController
   require 'google/apis/youtube_v3'
   require 'trollop'
   
-  API_KEY = 'YOUTUBE_API_KEY'
+  API_KEY = ENV['YOUTUBE_API_KEY']
   YOUTUBE_API_SERVICE_NAME = 'youtube'
   YOUTUBE_API_VERSION = 'v3'
   
