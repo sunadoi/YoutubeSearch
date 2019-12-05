@@ -1,0 +1,37 @@
+<div class="container-fluid">
+  <div class="header">
+    <%= form_with(url: root_path, local: true, method: :get, class: "search-form") do |form| %>
+      <div class="row justify-content-center">
+        <i class="fab fa-youtube col-1"></i>
+        <div class=" col-10 col-sm-8">
+          <%= form.text_field :keyword, placeholder: "検索する", class: "search-input col-sm-12" %>
+          <div class="row" id="order">
+            <div class="radio-btn col-10 col-sm-12 col-md-3">
+              <%= form.radio_button :order, :relevance %>
+              <%= form.label :order, "通常検索", {value: :relevance} %>
+            </div>
+            <div class="radio-btn col-10 col-sm-12 col-md-4">
+              <%= form.radio_button :order, :viewCount %>
+              <%= form.label :order, "再生回数が多い順", {value: :viewCount} %>
+            </div>
+          </div>
+        </div>
+        <%= form.submit "検索", class: "search-btn col-6 col-sm-1" %>
+      </div>
+    <% end %>
+  </div>
+
+  <div class="contents row">
+    <% if @youtube_data != nil %>
+      <% @youtube_data.items.each do |item| %>
+        <div class="content col-6 col-md-4 col-lg-3">
+          <% snippet = item.snippet %>
+          <p class="movie_title"><%= snippet.title %></p>
+          <p class="channel_title"><%= snippet.channel_title %></p>
+          <p class="movie_date"><%= snippet.published_at.strftime("%Y年%m月%d日 %H時%M分") %></p>
+          <div class="movie"><iframe width="220" height="160" src="https://www.youtube.com/embed/<%= item.id.video_id %>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        </div>
+      <% end %>
+    <% end %>
+  </div>
+</div>
