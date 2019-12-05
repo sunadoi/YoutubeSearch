@@ -12,11 +12,11 @@ class YoutubesController < ApplicationController
     
     next_page_token = nil
     opt = {
-    q: keyword,
-    type: 'video',
-    max_results: 10,
-    order: order,
-    page_token: next_page_token,
+      q: keyword,
+      type: 'video',
+      max_results: 10,
+      order: order,
+      page_token: next_page_token,
     }
     youtube.list_searches(:snippet, opt)
   end
