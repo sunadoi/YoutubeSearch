@@ -73,3 +73,5 @@ gem 'mini_magick'
 
 gem 'google-api-client', '~> 0.11.1'
 gem 'trollop'
+
+gem 'dotenv-rails'
