@@ -1,24 +1,18 @@
-# README
+デモ画像
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+## :speech_balloon: Usage
 
-* Ruby version
+`$ git clone https://github.com/sunadoi/youtube-search.git`
 
-* System dependencies
+`$ cd youtube-search`  
 
-* Configuration
+`$ bundle install`
 
-* Database creation
+`$ rails s`
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## :smile: Author
+- <a href="https://github.com/sunadoi/card_management">Github</a>
+- <a href="https://twitter.com/suna_tech">Twitter</a>
+- <a href="https://qiita.com/y-suna">Qiita</a>
