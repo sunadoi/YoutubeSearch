@@ -1,6 +1,6 @@
 <p align="center">
-<a href="https://docs.docker.com/"><img src="https://user-images.githubusercontent.com/57832553/73822687-022c9280-483a-11ea-85e7-2066c59dd3f0.gif" height="480px;" /></a>
-
+<img src="https://user-images.githubusercontent.com/57832553/73849452-51d88180-486d-11ea-994c-a2530755e20d.gif" height="480px;" />
+</p>
 
 ## :speech_balloon: Usage
 
