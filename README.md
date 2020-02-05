@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://user-images.githubusercontent.com/57832553/73849452-51d88180-486d-11ea-994c-a2530755e20d.gif" height="480px;" />
+<img src="https://user-images.githubusercontent.com/57832553/73850087-69fcd080-486e-11ea-82a8-6c33cae54eb8.gif" height="480px;" />
 </p>
 
 ## :speech_balloon: Usage
