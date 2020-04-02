@@ -2,16 +2,6 @@
 <img src="https://user-images.githubusercontent.com/57832553/73850801-c44a6100-486f-11ea-99de-1ff50032bdf2.gif">
 </p>
 
-## :speech_balloon: Usage
-
-`$ git clone https://github.com/sunadoi/youtube-search.git`
-
-`$ cd youtube-search`  
-
-`$ bundle install`
-
-`$ rails s`
-
 
 ## :smile: Author
 - <a href="https://github.com/sunadoi/card_management">Github</a>
